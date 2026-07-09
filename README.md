@@ -9,9 +9,10 @@ A lightweight, background-sync engine that bridges your Last.fm music metadata d
 ### Prerequisites & Automated Setup
 
 1. **Clone or Download** the repository to your local machine.
-2. **Environment Setup**: You don't need to manually configure dependencies. Simply run the `Setup-Environment.bat` file included in the repository; it will verify your Node.js installation and automatically install PM2 globally if it's missing.
-3. **Initialization**: Open the `Start Widget Config.bat` file, wait about 5 seconds, and click it again to initialize the folder structure. The system will automatically create your `.env` configuration file during the sync process.
-4. **Configure & Deploy**: Use the generated PowerShell GUI to input your API credentials, then click the **Sync Last.fm** button to deploy the engine as a permanent background process via PM2.
+2. Get a Last.fm API key https://www.last.fm/api/account/create
+3. **Environment Setup**: You don't need to manually configure dependencies. Simply run the `Setup-Environment.bat` file included in the repository; it will verify your Node.js installation and automatically install PM2 globally if it's missing.
+4. **Initialization**: Open the `Start Widget Config.bat` file, wait about 5 seconds, and click it again to initialize the folder structure. The system will automatically create your `.env` configuration file during the sync process.
+5. **Configure & Deploy**: Use the generated PowerShell GUI to input your API credentials, then click the **Sync Last.fm** button to deploy the engine as a permanent background process via PM2.
 
 
 
