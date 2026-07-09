@@ -1,0 +1,13 @@
+{
+  "name": "lastfm-discord-sync",
+  "version": "1.0.0",
+  "description": "Discord rich presence widget tracking via Last.fm",
+  "main": "sync.js",
+  "scripts": {
+    "start": "node sync.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
