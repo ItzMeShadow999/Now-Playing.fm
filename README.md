@@ -129,7 +129,7 @@ Registry Access Restrictions: Resolved the SetEnvironmentVariable permission blo
 
 Path Normalization Bug: Fixed an argument parsing error where Windows short-path names (DOCUME~1) broke the engine execution on folders containing special characters.
 
-⚠︎ Stability Notice: The new Fix-PM2.ps1 script forces deep environment resets. It should be treated as an unstable, emergency recovery tool—use it only as a last resort if standard deployments fail.
+⚠︎ Stability Notice: The new Fix-PM2.ps1 script forces deep environment resets. It should be treated as an unstable, emergency recovery tool use it only as a last resort if standard deployments fail.
 
 v1.0.0 — Core Architecture Release
 </details>
