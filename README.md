@@ -133,7 +133,7 @@ Path Normalization Bug: Fixed an argument parsing error where Windows short-path
 
 v1.0.0 — Core Architecture Release
 </details>
----
+
 
 ## Need Help?
 
